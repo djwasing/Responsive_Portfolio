@@ -1,0 +1,230 @@
+body {
+    background: url("../images/concrete.png");
+    max-height: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.content2 {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#nav-bar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #800000;
+    width: 100%;
+    opacity: .95;
+    z-index: 3; 
+}
+
+#links {
+    font-size: 16px;
+    background-color: #800000;
+    float: right;
+}
+
+#link {
+    color: white;
+    padding-left: 15px;
+    line-height: 60px;
+}
+
+.portfolio_link {
+    border-right: white 3px solid;
+    border-left: white 3px solid;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.about_link {
+    padding-right: 15px;
+}
+
+h1 {
+    background-color: #000080;
+    color: white;
+    padding: 15px;
+    /* margin-left: 9%; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 62px;
+    width: 220px;
+    float: left;
+    font-size: 30px;
+    line-height: 90px;
+    z-index: 2;
+}
+
+h2 {
+    color: #000080;
+    font-size: 26px;
+    padding-top: 25px;
+    border-bottom: 5px solid #000080;
+    padding-bottom: 10px;
+    width: 100%;
+    width: 960px;
+    font-style: italic;
+    position: relative;
+}
+
+#photo {
+    height: 200px;
+    width: 265px;
+    text-align: left;
+    box-shadow: 10px 10px 5px lightgrey;
+    float: left;
+    margin-right: 27px;
+    margin-bottom: 10px;
+}
+
+.about_me {
+    width: 960px;
+    margin-bottom: 30px;
+    font-size: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
+    background-color: #800000;
+    color: white;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    flex-shrink: 0;
+    font-size: 8px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    opacity: .95;
+}
+
+.content {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.content3 {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* Specific to Portfolio Page below*/
+
+#button1 {
+    color: white;
+    border: none;
+    width: 206px;
+    height: 25px;
+    font-size: 16px;
+    z-index: 2;
+    background-color: darkblue; 
+}
+.container1 {
+    position: relative;
+    float: left;
+}
+.container1 #button1 {
+    position: absolute;
+    cursor: pointer;
+}
+#tracker_img {
+    box-shadow: 10px 10px 5px lightgrey;
+    border: 3px solid darkslategrey;
+}
+#button1:hover {
+    background-color: #800000;
+}
+
+/* button 2 area */
+
+#button2 {
+    color: white;
+    border: none;
+    width: 206px;
+    height: 25px;
+    font-size: 16px;
+    z-index: 2;
+    background-color: darkblue;
+    margin-left: 25px;
+}
+.container2 {
+    position: relative;
+    float: left;
+}
+.container2 #button2 {
+    position: absolute;
+    cursor: pointer;
+}
+#police_img {
+    box-shadow: 10px 10px 5px lightgrey;
+    border: 3px solid darkslategrey;
+    margin-left: 25px;
+}
+#button2:hover {
+    background-color: #800000;
+}
+
+/* button 3 area */
+
+#button3 {
+    color: white;
+    border: none;
+    width: 206px;
+    height: 25px;
+    font-size: 16px;
+    z-index: 2;
+    background-color: darkblue;
+    margin-left: 25px;
+}
+.container3 {
+    position: relative;
+    float: left;
+}
+.container3 #button3 {
+    position: absolute;
+    cursor: pointer;
+}
+#ticket_img {
+    box-shadow: 10px 10px 5px lightgrey;
+    border: 3px solid darkslategrey;
+    margin-left: 25px;
+}
+#button3:hover {
+    background-color: #800000;
+}
+
+/* Connect Page Style below here */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+#submit {
+    background-color: #000080;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #800000;
+}
+
+.container4 {
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
