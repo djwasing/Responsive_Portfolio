@@ -79,7 +79,7 @@ h2 {
 }
 
 .about_me {
-    width: 960px;
+    max-width: 960px;
     margin-bottom: 30px;
     font-size: 21px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -227,4 +227,123 @@ input[type=text], select, textarea {
     max-width: 960px;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 640px) {
+    
+    #nav-bar {
+        overflow: hidden;
+        height: 160px;
+    }
+
+    #links {
+        float: left;
+        display: block;
+        text-align: center;
+        width: 100%;
+        /*margin-left: 65px;*/
+    }
+
+    h2 {
+        margin-top: 100px;
+        max-width: 100%;
+    }
+
+    .about_me {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 640px;
+        margin-right: 5%;
+        flex-direction: column;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    
+    .content2 {
+        
+    }
+
+    h1 {
+        text-align: center;
+        margin-left: 0px;
+        position: static;
+        width: 100%;
+        padding-left: 0;
+    }
+    
+    #photo {
+        margin: auto;
+    }
+
+    #info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        overflow: hidden;
+    }
+
+    .content {
+        max-width: 640px;
+        margin: 20px;
+        
+    }
+
+    .containers {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 640px;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #police_img {
+        margin-left: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    #button2 {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    #ticket_img {
+        margin-left: 0;
+    }
+
+    #button3 {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #nav-bar {
+        overflow: hidden;
+    }
+
+    #links {
+        float: left;
+        display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    #nav-bar {
+        overflow: hidden;
+    }
+
+    #links {
+        float: left;
+        display: block;
+        text-align: center;
+    }
+
+    .content {
+        overflow: hidden;
+        display: block;
+    }    
+} 
 
