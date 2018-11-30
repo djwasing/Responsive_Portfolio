@@ -228,6 +228,55 @@ input[type=text], select, textarea {
     margin: 0 auto;
 }
 
+@media screen and (max-width: 980px) {
+    #nav-bar {
+        overflow: hidden;
+    }
+
+    #links {
+        float: left;
+        display: block;
+        text-align: center;
+    }
+
+    #photo {
+        margin-left: 10px;
+    }
+
+    .content {
+        overflow: hidden;
+        display: block;
+    }  
+    
+    .content3 {
+        width: 100%;
+    }
+
+    h2 {
+        
+        max-width: 100%;
+    }
+
+    #info {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    #nav-bar {
+        overflow: hidden;
+    }
+
+    #links {
+        float: left;
+        display: block;
+        text-align: center;
+    }
+}
+
 @media screen and (max-width: 640px) {
     
     #nav-bar {
@@ -245,8 +294,8 @@ input[type=text], select, textarea {
 
     h2 {
         margin-top: 100px;
-        max-width: 100%;
     }
+    
 
     .about_me {
         display: flex;
@@ -325,34 +374,10 @@ input[type=text], select, textarea {
         max-width: 100%;
     }
 
+    .container3 {
+        margin-bottom: 40px;
+    }
+
 }
 
-@media screen and (max-width: 768px) {
-    #nav-bar {
-        overflow: hidden;
-    }
-
-    #links {
-        float: left;
-        display: block;
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 980px) {
-    #nav-bar {
-        overflow: hidden;
-    }
-
-    #links {
-        float: left;
-        display: block;
-        text-align: center;
-    }
-
-    .content {
-        overflow: hidden;
-        display: block;
-    }    
-} 
 
